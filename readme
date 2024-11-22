@@ -1,0 +1,32 @@
+Enunciado do Projeto
+Sistema de Gestão de Loja de Roupas
+Desenvolva um sistema de gerenciamento para uma loja de roupas que permita controlar produtos, fornecedores, categorias, clientes e vendas. O sistema deve ser capaz de registrar informações essenciais, como os detalhes dos produtos (nome, cor, tamanho, preço, estoque), as categorias dos produtos, os fornecedores, os clientes e as vendas realizadas. Além disso, o sistema deve gerenciar os itens vendidos em cada transação.
+
+O banco de dados será utilizado para armazenar todas as informações e permitirá operações como inserção, consulta, atualização e exclusão de dados. O objetivo é criar um sistema robusto, escalável e fácil de usar.
+
+# Sistema de Gestão de Loja de Roupas
+
+Este projeto é um sistema de gerenciamento de uma loja de roupas, utilizando SQL para criar e manipular o banco de dados. Ele permite o registro e manutenção de informações sobre produtos, categorias, fornecedores, clientes e vendas.
+
+## Estrutura do Projeto
+
+### Banco de Dados
+- **Nome do Banco de Dados:** `LojaDeRoupas`
+
+### Tabelas
+1. **Categorias:** Armazena informações sobre as categorias de produtos.
+2. **Produtos:** Registra os produtos, seus atributos e referências à categoria e fornecedor.
+3. **Clientes:** Contém os dados dos clientes.
+4. **Fornecedores:** Armazena informações sobre os fornecedores.
+5. **Vendas:** Registra as vendas realizadas.
+6. **ItensVenda:** Detalha os itens de cada venda, incluindo quantidade e preço unitário.
+
+### Requisitos
+1. **MySQL** ou qualquer outro sistema gerenciador de banco de dados compatível.
+2. Script SQL fornecido para criação e manipulação das tabelas.
+
+## Como Usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
