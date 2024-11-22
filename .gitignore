@@ -1,0 +1,28 @@
+
+---
+
+### **.gitignore**
+
+```gitignore
+# Arquivos temporários do sistema
+*.tmp
+*.log
+
+# Configurações do ambiente
+.env
+
+# Diretórios comuns de IDEs
+.vscode/
+.idea/
+
+# Arquivos de backup
+*.bak
+*.sql~
+
+# Arquivos específicos do MySQL
+*.frm
+*.ibd
+
+# Exclusão de outros arquivos gerados
+.DS_Store
+Thumbs.db
